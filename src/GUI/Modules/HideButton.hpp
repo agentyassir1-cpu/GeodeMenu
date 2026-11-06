@@ -17,12 +17,8 @@ class HideButton : public Module
             setDefaultEnabled(true);
 
             #ifdef GEODE_IS_MOBILE
-            if (!qolmod::utils::isChromebook())
-            {
-                setDefaultEnabled(false);
-                setDisabled(true);
-                setDisabledMessage("You can't hide the button on mobile, silly :P");
-            }
+            // en movil el boton se muestra por defecto, pero se puede ocultar
+            setDefaultEnabled(false);
             #endif
         }
 };
