@@ -51,7 +51,7 @@
 		"open-menu-keybind": {
 			"type": "keybind",
 			"name": "Open Menu Bind",
-			"default": "Tab",
+			"default": "0",
 			"priority": 8008135
 		}
 	},
